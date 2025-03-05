@@ -1,0 +1,93 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naija Meal Recommender</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Naija Meal Recommender</h1>
+        <div class="button-group">
+            <button onclick="getRecommendation('Breakfast')">Get Breakfast</button>
+            <button onclick="getRecommendation('Lunch')">Get Lunch</button>
+            <button onclick="getRecommendation('Dinner')">Get Dinner</button>
+        </div>
+        <div id="recommendation"></div>
+        <div id="history">
+            <h3>Meal History</h3>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+
+    <script>
+        function getRecommendation(mealTime) {
+            fetch(`/recommend?meal_time=${mealTime}`)
+                .then(response => response.json())
+                .then(data => {
+                    const recommendationDiv = document.getElementById('recommendation');
+                    recommendationDiv.innerHTML = `
+                        <h2>${data.FOOD_NAME}</h2>
+                        <div class="meal-info">
+                            <p>${data.DESCRIPTION}</p>
+                            <p><strong>Ingredients:</strong> ${data.MAIN_INGREDIENTS}</p>
+                            <p><strong>Class:</strong> ${data.FOOD_CLASS}</p>
+                        </div>
+                        <button class="choose-button" onclick="chooseMeal('${data.FOOD_NAME}', '${mealTime}')">Choose This Meal</button>
+                    `;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function chooseMeal(foodName, mealTime) {
+            const dateTime = new Date().toLocaleString();
+            const historyList = document.getElementById('history-list');
+            const listItem = document.createElement('li');
+            listItem.textContent = `${mealTime}: ${foodName} at ${dateTime}`;
+            historyList.insertBefore(listItem, historyList.firstChild); // Add new items at the top
+
+            // Save to localStorage
+            let history = JSON.parse(localStorage.getItem('mealHistory')) || [];
+            history.unshift({ mealTime, foodName, dateTime }); // Add new items at the start of the array
+            localStorage.setItem('mealHistory', JSON.stringify(history));
+        }
+
+        function loadHistory() {
+            const history = JSON.parse(localStorage.getItem('mealHistory')) || [];
+            const historyList = document.getElementById('history-list');
+            history.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${item.mealTime}: ${item.foodName} at ${item.dateTime}`;
+                historyList.appendChild(listItem);
+            });
+        }
+
+        function setReminders() {
+            const now = new Date();
+            const reminders = [
+                { time: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 0, 0), message: "Time for Breakfast!" },
+                { time: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0), message: "Time for Lunch!" },
+                { time: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 0), message: "Time for Dinner!" }
+            ];
+
+            reminders.forEach(reminder => {
+                const delay = reminder.time - now;
+                if (delay > 0) {
+                    setTimeout(() => alert(reminder.message), delay);
+                }
+            });
+        }
+
+        // Load history and set reminders on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadHistory();
+            setReminders();
+        });
+    </script>
+</body>
+</html>

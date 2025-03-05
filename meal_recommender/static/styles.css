@@ -1,0 +1,172 @@
+/* Modern CSS Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.choose-button {
+    background-color: #2ecc71;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.choose-button:hover {
+    background-color: #27ae60;
+}
+
+/* Recommendation Section */
+#recommendation {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+#recommendation:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+#recommendation h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.meal-info {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+.meal-info p {
+    margin: 10px 0;
+}
+
+.meal-info strong {
+    color: #2c3e50;
+}
+
+/* History Section */
+#history {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+#history-list li {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+#history-list li:last-child {
+    border-bottom: none;
+}
+
+#history-list li:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    button {
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #recommendation, #history {
+        padding: 15px;
+    }
+}

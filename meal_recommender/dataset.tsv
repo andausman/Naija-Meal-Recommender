@@ -1,0 +1,48 @@
+FOOD_NAME	MAIN_INGREDIENTS	DESCRIPTION	FOOD_CLASS	MEAL_TIME
+Akara (Bean Cakes)	Beans, Onions, Pepper, Salt, Vegetable oil	Deep-fried bean cakes made from blended beans	Protein, Fat	Breakfast
+Moi Moi (Steamed Bean Pudding)	Beans, Onions, Pepper, Salt, Vegetable oil, Eggs (optional)	Steamed bean pudding, often cooked in leaves	Protein, Fat	Breakfast
+Pap (Ogi) with Akara	Cornmeal, Water, Akara (Bean Cakes)	Fermented cornmeal porridge served with Akara	Carbohydrate, Protein	Breakfast
+Yam and Egg Sauce	Yam, Eggs, Tomatoes, Onions, Pepper, Vegetable oil	Boiled yam served with a tomato and egg sauce	Carbohydrate, Protein	Breakfast
+Fried Plantains and Eggs	Ripe Plantains, Eggs, Onions, Pepper, Vegetable oil	Fried ripe plantains served with scrambled eggs	Carbohydrate, Protein	Breakfast
+Bread and Tea	Bread, Tea, Milk, Sugar	Sliced bread served with tea or coffee	Carbohydrate	Breakfast
+Oatmeal Porridge	Oats, Milk, Sugar, Cinnamon (optional)	Warm oatmeal porridge, often sweetened	Carbohydrate	Breakfast
+Boiled Yam and Palm Oil	Yam, Palm oil, Salt	Boiled yam served with palm oil	Carbohydrate, Fat	Breakfast
+Coconut Rice	Rice, Coconut milk, Onions, Pepper, Salt	Rice cooked with coconut milk and spices	Carbohydrate, Fat	Breakfast
+Fried Rice and Eggs	Leftover Fried Rice, Eggs, Onions, Pepper, Vegetable oil	Fried rice reheated with scrambled eggs	Carbohydrate, Protein	Breakfast
+Pancakes	Flour, Eggs, Milk, Sugar, Butter, Baking powder	Sweet, fluffy pancakes served with syrup or honey	Carbohydrate, Protein	Breakfast
+Scrambled Eggs and Toast	Eggs, Bread, Butter, Salt, Pepper	Scrambled eggs served with buttered toast	Protein, Carbohydrate	Breakfast
+Beans Porridge	Beans, Palm oil, Onions, Pepper, Salt	Thick porridge made from beans and palm oil	Protein, Fat	Breakfast
+Cornmeal Porridge	Cornmeal, Milk, Sugar, Cinnamon (optional)	Sweet porridge made from cornmeal	Carbohydrate	Breakfast
+Fried Potatoes and Eggs	Potatoes, Eggs, Onions, Pepper, Vegetable oil	Fried potatoes served with scrambled eggs	Carbohydrate, Protein	Breakfast
+Jollof Rice	Tomatoes, Seasoning Cubes, Protein (Meat, Fish), Extras, Vegetable oil, Pepper	Spicy Rice with Tomatoes	Carbohydrate, Protein	Lunch
+Fried Rice	Vegetables, Protein (Meat, Fish), Stock, Seasoning Cubes, Vegetable oil, Pepper	Rice dish stir-fried with Veggies	Carbohydrate	Lunch
+Red Oil Rice	Rice, Palm oil, Seasoning Cubes, Protein (Fish), Pepper	Rice cooked with palm oil and spices	Carbohydrate, Protein, Fat	Lunch
+Red Oil Beans	Beans, Palm oil, Crayfish, Seasoning Cubes, Pepper	Beans cooked with palm oil and crayfish	Fat, Protein	Lunch
+Spaghetti	Spaghetti, Tomatoes, Vegetables, Groundnut oil, Seasoning Cubes, Protein (Fish, Egg, Meat), Crayfish, Pepper	Pasta cooked with sauce and veggies	Carbohydrate	Dinner
+Macaroni	Macaroni, Tomatoes, Fresh pepper, Protein (Fish, Egg), Seasoning Cubes	Pasta cooked with sauce and veggies	Carbohydrate	Dinner
+Yam Porridge	Yam, Palm oil, Protein (Fish), Pepper, Seasoning Cubes	Dish of yam cooked with palm oil and spices	Carbohydrate	Dinner
+Rice and Stew	Tomatoes, Rice, Seasoning Cubes, Protein (Fish, Meat, Egg), Pepper	Rice with Tomato sauce and spices	Carbohydrate, Vitamins	Lunch
+Rice/Beans and Stew	Rice, Beans, Tomatoes, Seasoning, Protein (Fish, Meat, Egg), Pepper	Rice/Beans cooked with tomato sauce	Carbohydrate, Protein, Vitamins	Lunch
+Yam and Stew	Yam, Tomatoes, Seasoning, Groundnut oil, Pepper	Yam cooked and a sauce made with tomatoes	Carbohydrate, Vitamins	Lunch
+Yam and Egg Sauce	Yam, Eggs, Tomato, Protein (Fish), Groundnut oil, Pepper, Seasoning Cube	Cooked yam and stir-fried tomatoes and eggs	Carbohydrate, Protein	Breakfast
+Beans and Spaghetti	Beans, Spaghetti, Palm oil, Seasoning, Groundnut oil, Protein (Fish, Meat), Pepper	Beans and pasta cooked with palm oil	Protein, Vitamins	Dinner
+Red Oil Rice and Beans	Rice, Red oil, Beans, Seasoning cube, Protein (Fish), Crayfish, Pepper	Mixed Rice and Beans cooked with palm oil	Fat, Carbohydrate, Protein	Lunch
+Pounded Yam and Egusi Soup	Yam or Yam flour, Melon Seed, Protein (Fish, Meat), Seasoning Cube, Palm oil, Pepper	Blended Yam and Melon soup cooked with seasoning	Carbohydrate, Protein	Dinner
+Eba and Okro Soup	Garri, Fresh Okro, Seasoning Cube, Protein (Fish, Meat), Pepper, Palm oil	Garri and Okro soup made with Fish	Carbohydrate, Water	Dinner
+Pounded Yam and Ogbono Soup	Yam or Yam Flour, Ogbono Seed, Protein (Fish, Meat), Stock water, Crayfish, Palm oil, Seasoning Cube, Pepper	Blended yam and ogbono soup made with fish	Carbohydrate, Water	Dinner
+Amala and Akuku Soup	Cassava Flour, Akuku leaves, Palm oil, Protein (Meat, Fish), Pepper, Seasoning Cubes	Cassava flour and green leaf soup with stock	Carbohydrate, Water	Dinner
+Semovita and Egusi Soup	Semovita Flour, Melon seed, Palm oil, Protein (Fish, Meat), Pepper, Seasoning Cubes	Smooth swallow paired with Egusi soup cooked with fish and meat	Carbohydrate, Water	Dinner
+Semovita and Beans Soup	Semovita Flour, Ground beans, Palm oil, Seasoning Cubes, Protein (Meat, Fish), Pepper	Smooth swallow and beans soup with meat and fish	Carbohydrate, Protein	Dinner
+Amala and Ogbono Soup	Cassava Flour, Ogbono Seed, Seasoning Cube, Palm oil, Protein (Fish, Meat), Pepper	Cassava flour and ogbono soup with meat and fish	Carbohydrate, Water	Dinner
+Semovita and Okro Soup	Semovita Flour, Fresh Okro, Palm oil, Seasoning Cube, Protein (Meat, Fish), Pepper	Smooth swallow and okro soup with fish and meat	Carbohydrate, Water	Dinner
+Pounded Yam and Akuku Soup	Yam, Yam Flour, Akuku leaves, Palm oil, Seasoning Cubes, Protein (Fish, Meat), Pepper	Blended yam or yam flour and green soup	Carbohydrate, Water	Dinner
+Eba and Ogbono Soup	Garri, Ogbono seed, Palm oil, Seasoning Cubes, Protein (Meat, Fish), Crayfish, Pepper	Garri and ogbono soup made with Fish	Carbohydrate, Water	Dinner
+Amala and Egusi Soup	Cassava Flour, Melon Seed, Palm oil, Seasoning Cubes, Protein (Fish, Meat), Pepper	Cassava flour and egusi soup with fish and meat	Carbohydrate, Water	Dinner
+Eba and Egusi Soup	Garri, Melon Seed, Seasoning Cubes, Protein (Fish, Meat), Pepper	Garri and Egusi soup with meat and fish	Carbohydrate, Water	Dinner
+Eba and Akuku Soup	Garri, Akuku leaves, Palm oil, Seasoning Cubes, Protein (Fish, Meat), Pepper	Garri and green soup with meat and fish	Carbohydrate, Water	Dinner
+Semovita and Ogbono Soup	Semovita Flour, Ogbono Seed, Seasoning Cubes, Protein (Fish, Meat), Palm oil, Pepper	Smooth swallow and ogbono soup with fish and meat	Carbohydrate, Water	Dinner
+Semovita and Akuku Soup	Semovita Flour, Akuku leaves, Palm oil, Protein (Meat, Fish), Seasoning Cubes, Pepper	Smooth swallow and green soup with fish	Carbohydrate, Water	Dinner
+Amala and Okro Soup	Cassava Flour, Fresh Okro, Palm oil, Protein (Meat, Fish), Pepper	Cassava flour and okro soup with meat and fish	Carbohydrate, Water	Dinner
+Pounded Yam and Beans Soup	Yam or Yam Flour, Ground Beans, Palm oil, Protein (Fish, Meat), Seasoning Cubes, Pepper	Yam flour or Pounded Yam and beans soup with meat and fish	Carbohydrate, Protein	Dinner
+Eba and Beans Soup	Garri, Ground Beans, Palm oil, Seasoning Cubes, Protein (Meat, Fish), Pepper	Garri and beans soup with fish and meat	Carbohydrate, Protein	Dinner
+Pounded Yam and Okro Soup	Yam or Yam Flour, Fresh Okro, Palm oil, Protein (Meat, Fish), Seasoning Cubes, Pepper	Yam flour or Blended Yam and okro soup with meat and fish	Carbohydrate, Water	Dinner
